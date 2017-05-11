@@ -2,9 +2,9 @@ PODS:
   - AEXML (4.0.2)
   - Alamofire (4.3.0)
   - BlueCatsSDK (2.0.2)
-  - Moya (8.0.2):
-    - Moya/Core (= 8.0.2)
-  - Moya/Core (8.0.2):
+  - Moya (8.0.4):
+    - Moya/Core (= 8.0.4)
+  - Moya/Core (8.0.4):
     - Alamofire (~> 4.1)
     - Result (~> 3.0)
   - OHHTTPStubs (4.8.0):
@@ -48,7 +48,7 @@ SPEC CHECKSUMS:
   AEXML: 7de81f28c6c876a210f31924acc2e326cd01e162
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
   BlueCatsSDK: 124295b196d4fbad99bb0884eaf3da99149cd33a
-  Moya: 47f61da5b634aa71f676431b64ee0f81e976296d
+  Moya: a08bc060c7a44eee27447b239ed33a189b641e2b
   OHHTTPStubs: b393565822317305b87a1440d4c7aff131679f66
   Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994

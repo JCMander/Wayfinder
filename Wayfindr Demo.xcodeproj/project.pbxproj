@@ -133,6 +133,55 @@
 			remoteGlobalIDString = 00BF3D441BF20ED40075533D;
 			remoteInfo = "Wayfindr Demo";
 		};
+		E1C7694E1EC4868E002C42B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C769441EC4868E002C42B3 /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A92791BDD47210011F36F;
+			remoteInfo = "AEXML iOS";
+		};
+		E1C769501EC4868E002C42B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C769441EC4868E002C42B3 /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A92DF1BDD5D330011F36F;
+			remoteInfo = "AEXML watchOS";
+		};
+		E1C769521EC4868E002C42B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C769441EC4868E002C42B3 /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A92991BDD4CEF0011F36F;
+			remoteInfo = "AEXML iOS Tests";
+		};
+		E1C769541EC4868E002C42B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C769441EC4868E002C42B3 /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A92BE1BDD5B300011F36F;
+			remoteInfo = "AEXML tvOS";
+		};
+		E1C769561EC4868E002C42B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C769441EC4868E002C42B3 /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A92CC1BDD5BB20011F36F;
+			remoteInfo = "AEXML tvOS Tests";
+		};
+		E1C769581EC4868E002C42B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C769441EC4868E002C42B3 /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A928A1BDD49390011F36F;
+			remoteInfo = "AEXML OSX";
+		};
+		E1C7695A1EC4868E002C42B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C769441EC4868E002C42B3 /* AEXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B4A92AB1BDD54F50011F36F;
+			remoteInfo = "AEXML OSX Tests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -222,7 +271,7 @@
 		00DAE70E1BF210CE003C679E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00DAE7101BF210E4003C679E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00DAE7111BF210E4003C679E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00DAE7141BF211F9003C679E /* WAYGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYGraph.swift; sourceTree = "<group>"; };
+		00DAE7141BF211F9003C679E /* WAYGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WAYGraph.swift; path = "Wayfindr Demo/Classes/Model/WAYGraph.swift"; sourceTree = SOURCE_ROOT; };
 		00DAE7151BF211F9003C679E /* WAYGraphEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYGraphEdge.swift; sourceTree = "<group>"; };
 		00DAE7161BF211F9003C679E /* WAYGraphNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYGraphNode.swift; sourceTree = "<group>"; };
 		00DAE7171BF211F9003C679E /* WAYInstructionSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAYInstructionSet.swift; sourceTree = "<group>"; };
@@ -262,6 +311,7 @@
 		941B53CDFFC8619780539219 /* Pods_Wayfindr_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wayfindr_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A0B45209ABAD7901A8E776 /* Pods-Wayfindr DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wayfindr DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wayfindr DemoTests/Pods-Wayfindr DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		D414CA3DEDD7EF543468350E /* Pods-Wayfindr Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wayfindr Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wayfindr Demo/Pods-Wayfindr Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		E1C769441EC4868E002C42B3 /* AEXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AEXML.xcodeproj; path = AEXML/AEXML.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -542,6 +592,7 @@
 		00BF3D3C1BF20ED40075533D = {
 			isa = PBXGroup;
 			children = (
+				E1C769441EC4868E002C42B3 /* AEXML.xcodeproj */,
 				00BF3D471BF20ED40075533D /* Wayfindr Demo */,
 				00BF3D5C1BF20ED40075533D /* Wayfindr DemoTests */,
 				0044392E1BF22BCA00031373 /* Common Tests */,
@@ -788,6 +839,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E1C769451EC4868E002C42B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C7694F1EC4868E002C42B3 /* AEXML.framework */,
+				E1C769511EC4868E002C42B3 /* AEXML.framework */,
+				E1C769531EC4868E002C42B3 /* AEXML iOS Tests.xctest */,
+				E1C769551EC4868E002C42B3 /* AEXML.framework */,
+				E1C769571EC4868E002C42B3 /* AEXML tvOS Tests.xctest */,
+				E1C769591EC4868E002C42B3 /* AEXML.framework */,
+				E1C7695B1EC4868E002C42B3 /* AEXML OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -865,6 +930,12 @@
 			mainGroup = 00BF3D3C1BF20ED40075533D;
 			productRefGroup = 00BF3D461BF20ED40075533D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E1C769451EC4868E002C42B3 /* Products */;
+					ProjectRef = E1C769441EC4868E002C42B3 /* AEXML.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				00BF3D441BF20ED40075533D /* Wayfindr Demo */,
@@ -872,6 +943,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E1C7694F1EC4868E002C42B3 /* AEXML.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEXML.framework;
+			remoteRef = E1C7694E1EC4868E002C42B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C769511EC4868E002C42B3 /* AEXML.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEXML.framework;
+			remoteRef = E1C769501EC4868E002C42B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C769531EC4868E002C42B3 /* AEXML iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AEXML iOS Tests.xctest";
+			remoteRef = E1C769521EC4868E002C42B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C769551EC4868E002C42B3 /* AEXML.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEXML.framework;
+			remoteRef = E1C769541EC4868E002C42B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C769571EC4868E002C42B3 /* AEXML tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AEXML tvOS Tests.xctest";
+			remoteRef = E1C769561EC4868E002C42B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C769591EC4868E002C42B3 /* AEXML.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AEXML.framework;
+			remoteRef = E1C769581EC4868E002C42B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C7695B1EC4868E002C42B3 /* AEXML OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AEXML OSX Tests.xctest";
+			remoteRef = E1C7695A1EC4868E002C42B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		00BF3D431BF20ED40075533D /* Resources */ = {

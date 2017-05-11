@@ -2,7 +2,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'Wayfindr Demo' do
-  pod 'AEXML', '~> 4.0.2'
+  pod 'AEXML', '~> 4.0.2’
   pod 'Alamofire', '~> 4.3.0'
   pod 'Moya', '~> 8.0.1'
   pod 'SwiftGraph', '~> 1.2.0'
@@ -12,7 +12,7 @@ target 'Wayfindr Demo' do
 end
 
 target 'Wayfindr DemoTests' do
-  pod 'AEXML', '~> 4.0.2'
+  pod 'AEXML', '~> 4.0.2’
   pod 'SwiftyJSON', '~> 3.1.4'
   pod 'SwiftGraph', '~> 1.2.0'
   pod 'OHHTTPStubs', '~> 4.6'
